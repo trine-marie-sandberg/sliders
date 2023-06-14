@@ -1,0 +1,33 @@
+/* COLOR VARIABLES */
+:root {
+    --color-primary: rgb(243, 243, 243);
+    --color-secondary: rgb(255, 255, 255);
+    --color-font: rgb(61, 61, 83);
+
+    --color-on: rgb(37, 99, 37);
+    --color-off: rgb(160, 135, 132);
+
+    --color-grey: rgb(204, 204, 204);
+}
+
+/* GENERIC STYLES */
+body {
+    background-color: var(--color-primary);
+    color: var(--color-font);
+    margin: 0;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 5px solid var(--color-font);
+    font-weight: bold;
+    margin: 16px;
+    max-width: 250px;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
