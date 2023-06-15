@@ -1,13 +1,13 @@
 /* COLOR VARIABLES */
 :root {
-    --color-primary: rgb(243, 243, 243);
-    --color-secondary: rgb(255, 255, 255);
-    --color-font: rgb(61, 61, 83);
+    --color-primary: rgb(23, 38, 37);
+    --color-secondary: rgb(30, 21, 21);
+    --color-font: rgb(191, 191, 210);
 
-    --color-on: rgb(37, 99, 37);
-    --color-off: rgb(160, 135, 132);
+    --color-on: rgb(56, 162, 56);
+    --color-off: rgb(198, 213, 209);
 
-    --color-grey: rgb(204, 204, 204);
+    --color-grey: rgb(88, 78, 78);
 }
 
 /* GENERIC STYLES */
